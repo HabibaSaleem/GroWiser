@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="search"
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"
+        android:iconTint="@color/teal_700"
+        />
+
+    <item
+        android:title="Notification"
+        android:id="@+id/notification"
+        android:icon="@drawable/notifications"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/teal_700" />
+
+</menu>

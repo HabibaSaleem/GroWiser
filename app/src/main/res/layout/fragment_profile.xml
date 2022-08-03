@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui_drawer.ProfileFragment"
+    android:background="@drawable/ic_home_page___22">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/txt_profile_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mark Bella"
+            android:textSize="30sp"
+            android:textColor="#000"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="110dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/profile"
+        android:id="@+id/lin_1"
+        >
+
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_baseline_person_24"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="35dp"
+            />
+        <TextView
+            android:id="@+id/txt_view_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mark Bella"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lin_1"
+        android:id="@+id/lin_2"
+
+        >
+
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_baseline_email_24"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="35dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="markbella@gmail.com"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lin_2"
+        android:id="@+id/lin_3"
+
+        >
+
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_baseline_phone_24"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="35dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lin_3"
+        android:id="@+id/lin_4"
+
+        >
+
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_baseline_remove_red_eye_24"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="35dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lin_4"
+        android:id="@+id/lin_5"
+
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="140dp"
+            android:textSize="15sp"
+            android:background="@drawable/border_radius"
+            android:padding="13dp"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

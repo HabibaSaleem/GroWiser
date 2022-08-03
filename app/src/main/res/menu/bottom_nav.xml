@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_PredictPlant"
+        android:icon="@drawable/tap_and_play"
+        android:title="Predict Plant" />
+
+    <item
+        android:id="@+id/navigation_PlantGallery"
+        android:icon="@drawable/image_search"
+        android:title="Plant Gallery" />
+
+
+    <item
+        android:id="@+id/navigation_PlantCare"
+        android:icon="@drawable/ic_baseline_local_florist_24"
+        android:title="Plant Care" />
+</menu>

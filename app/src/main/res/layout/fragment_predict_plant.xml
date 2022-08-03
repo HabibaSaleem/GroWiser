@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_home_page___22"
+    android:orientation="vertical"
+    tools:context=".ui.PredictPlant.PredictPlantFragment">
+
+
+    <ImageView
+        android:id="@+id/preTxtView1"
+        android:layout_width="233dp"
+        android:layout_height="130dp"
+        android:src="@drawable/logoimg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/preTxtView1_choosePre"
+        android:layout_width="370dp"
+        android:layout_height="59dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="How do you want to predict a plant?"
+        android:textAlignment="center"
+        android:textColor="#1D300A"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+
+    <Button
+        android:id="@+id/button2_choosePre"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal|center"
+        android:background="@drawable/border_radius"
+        android:text="Automatic"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button1_choosePre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
+
+    <Button
+        android:id="@+id/button1_choosePre"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center|center_horizontal"
+        android:background="@drawable/border_radius"
+        android:text="Manually"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <ImageView
+        android:layout_width="404dp"
+        android:layout_height="361dp"
+        android:layout_marginTop="394dp"
+        android:layout_marginEnd="80dp"
+        android:src="@drawable/greenleaf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
